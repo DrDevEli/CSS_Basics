@@ -1,0 +1,142 @@
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 50px 50px 0 50px;
+  background-color: #faf9f6;
+  display: flex;
+  flex-direction: column;
+  min-height: 95vh;
+}
+.main {
+  flex: 1;
+}
+img.logo{
+  display: inline;
+  width: 35%;
+
+
+}
+
+span{
+  color:midnightblue ;
+}
+img.tile-image{
+  border-radius: 10%;
+  height: 200px;
+  width: 350px;
+}
+h2{
+  font-size: 1.5rem;
+}
+div > p {
+  font-size: 1.3rem;
+  width: 350px;
+
+}
+
+footer {
+  text-align: center;
+  color: midnightblue;
+  
+}
+@media (max-width:480px) {
+  body{
+    background-color: #EEE7DA;
+   margin: 20px 0 0 20px;
+  }
+  .logo{
+    
+    margin-top:5px;
+  }
+  h1 {
+    font-size: 2rem;
+  }
+  img.tile-image{
+    border-radius: 10%;
+    justify-content: center;
+    width:98%;
+  }
+  div > p {
+    text-align: center;
+    width: 80%;
+    padding-left:30px ;
+  }
+  h2{
+    display: block;
+    text-align: center;
+  }
+}
+
+@media (min-width:481px) and (max-width:768px) {
+
+  body{
+    background-color: #C6A969;
+    margin: 20px 20px 0 20px;
+  }
+  img.logo{
+    width: 25%;
+    padding: 25px;
+    
+    border-radius: 35%;
+  }
+  h1{
+    font-size: 2.3rem;
+  }
+  br{
+    display: none;
+  }
+  img.tile-image{
+    border-radius: 10%;
+    padding-right: 15px;
+    width: 50%;
+    float: left;
+  }
+  div > p {
+    display: inline;
+    width: 55%;
+  }
+}
+@media (min-width:769px) {
+  
+  body{background-color: #B4D4FF;
+    
+  }
+  img.logo{
+    width: 5%;
+    padding: 25px;
+    border: 1px solid #176B87;
+    border-radius: 35%;
+  }
+  h1{
+    display: block;
+    font-size: 2.7rem;
+    text-align: center;
+    margin: 50px auto;
+  }
+  br{
+    display: none;
+  }
+  img.tile-image{
+    border-radius: 10%;
+    display: block;
+    margin: 0 auto;
+    width:55%;
+    height: 400px;
+  }
+  
+  h2{
+    color: #200E3A;
+    font-size: 2.2rem;
+    text-align: center;
+  }
+  div > p{
+    margin: 3% auto;
+    width: 500px;
+    text-align: center;
+    font-size: 1.9rem;
+
+  }
+  footer{
+    margin-top: 20px;
+    text-align: end;
+  }
+}
